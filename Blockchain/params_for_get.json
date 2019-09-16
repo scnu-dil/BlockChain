@@ -1,0 +1,19 @@
+{
+  "getModulesStatus": {},
+  "getAccount": {
+    "address": "a0025e6de5a793da4b5b00715b7774916c06e9a72b7c18",
+    "key": "",
+    "code": "",
+    "issuer": ""
+  },
+  "createAccount": {},
+  "getLedger": {
+    "seq":"",
+    "with_validator": true,
+    "with_consvalue": true
+  },
+  "getTransactionHistory": {
+    "hash": "00a9344c24a2f7a989b62e623e52673051769268a556b7edd66baa00481561f2",
+    "ledger_seq": ""
+  }
+}

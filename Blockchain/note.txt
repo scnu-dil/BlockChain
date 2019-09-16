@@ -1,0 +1,43 @@
+"""创建账号的参数格式"""
+ip = "192.168.0.201:29334"
+sourceAddress = "a0025e6de5a793da4b5b00715b7774916c06e9a72b7c18"
+initMetadata = [{
+ "key": "测试",
+ "value": "于2019.08.18 22：42分创建账号时设置的数据"
+}]
+privateKey='c00205ce8de2892b26c3b95caf3404831d6e913c655d85b517f076380ebfcbef47ff8f'
+FcreateAccount(ip, sourceAddress, initMetadata, privateKey)
+
+
+
+
+"""发行资产的参数格式"""
+sourceAddress = "a0025e6de5a793da4b5b00715b7774916c06e9a72b7c18"
+destAddress="a001dfd36749086b857d127ae3d66df81f5379c716e6d1"
+ip = "192.168.0.201:29334"
+initMetadata = [{
+        "key": "测试",
+        "value": "于2019.08.18 22：50分创建账号时设置的数据"
+    }]
+print(createAccountOper(destAddress,initMetadata))
+
+
+
+
+"""转移资产的参数格式"""
+ip = "192.168.0.201:29334"
+sourceAddress = "a0025e6de5a793da4b5b00715b7774916c06e9a72b7c18"
+issuerAddress = "a0025e6de5a793da4b5b00715b7774916c06e9a72b7c18"
+destAddress = "a001dfd36749086b857d127ae3d66df81f5379c716e6d1"
+privateKey = "c00205ce8de2892b26c3b95caf3404831d6e913c655d85b517f076380ebfcbef47ff8f"
+code = "测试币"
+amount = 1
+
+"""设置数据的参数格式"""
+ip = "192.168.0.201:29334"
+sourceAddress = "a0025e6de5a793da4b5b00715b7774916c06e9a72b7c18"
+key="2019-06-03 21:57:40"
+value= "login"
+privateKey = 'c00205ce8de2892b26c3b95caf3404831d6e913c655d85b517f076380ebfcbef47ff8f'
+nnum = Fset_metadata(ip, sourceAddress,privateKey,key, value)
+print(nnum)
